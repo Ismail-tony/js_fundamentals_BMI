@@ -9,6 +9,12 @@ let BMIJohn = massJohn/(heightJohn * heightJohn);//BMI = 24.1
 let MarkHigherBmi = (BMIMark > BMIJohn); //TRUE
 console.log(BMIMark, BMIJohn, MarkHigherBmi);
 
+if (BMIMark > BMIJohn) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+} else {
+    console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
+}
+
 
 //Test Data 2
 massMark = 95;
@@ -20,3 +26,9 @@ BMIMark = massMark/heightMark ** 2; //BMI = 26.8
 BMIJohn = massJohn/heightJohn ** 2;//BMI = 27.4
 MarkHigherBmi = (BMIMark>BMIJohn); //FALSE
 console.log(BMIMark, BMIJohn, MarkHigherBmi);
+
+if (BMIMark > BMIJohn) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+} else {
+    console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
+}
